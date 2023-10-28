@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+body {
+    font-family: "pacifico", sans-serif;
+    background-image: url(./img/summer-palm-leaves-on-pink-background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+.video {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #555;
+  background: #fff;
+}
+
+.wrapper {
+max-width: 1550px;
+margin-inline: auto;
+}
+
+.container {
+max-width: 1200px;
+margin-inline: auto;
+}
+
+.container1 {
+display: flex;
+align-items: center;
+gap: 40px;
+margin-top: 140px;
+}
+
+
+.Date {
+    font-family: pacifico;
+    font-size: 26px;
+    font-weight: 300;
+    color: #000;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+}
+
+
+iframe {
+    border: 20px solid #0bbaa5;
+    margin-right: -70px;
+}
+
+p:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 992px) {
+    .container1 {
+        flex-direction: column;
+    }
+    
+    .Main__text {
+        font-size: 50px;
+    }
+
+    iframe {
+        border: 10px solid #0bbaa5;
+    }
+
+    .mom {
+        margin-bottom: 10px;
+    }
+
+    .Date {
+        display: block;
+    }
+
+    p {
+        text-align: center;
+        margin-left: 90px;
+    }
+
+    
+}
+
+p {
+    font-family: pacifico;
+    font-size: 75px;
+    font-weight: 300;
+    color: deeppink;
+    margin-bottom: 90px;
+    margin-top: -100px;
+    transform: .2s all ease-and-out;
+}
+
+.mom {
+    margin-bottom: 450px;
+}
+
